@@ -13,6 +13,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { FormsModule } from '@angular/forms';
 import { MatSliderModule } from '@angular/material/slider';
 
+import { AngularFireModule } from '@angular/fire';
+import { environment } from '../environments/environment';
+
 import { AppComponent } from './app.component';
 import { ContainerComponent } from './components/container/container.component';
 import { FrameComponent } from './components/frame/frame.component';
@@ -93,6 +96,7 @@ export class MyHammerConfig extends HammerGestureConfig {
     MatRippleModule,
     MatIconModule,
     HammerModule,
+    AngularFireModule.initializeApp(environment.firebase),
   ],
   entryComponents: [ModalDialogComponent],
   providers: [{ provide: HAMMER_GESTURE_CONFIG, useClass: MyHammerConfig }],

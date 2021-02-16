@@ -6,13 +6,13 @@ export const environment = {
   production: false,
   serverUrl: 'http://localhost:3001',
   firebase: {
-    apiKey: 'AIzaSyCHU1dDLH6s7TKBzzUfR9kmFJskaftryXo',
-    authDomain: 'word-gamev2.firebaseapp.com',
-    projectId: 'word-gamev2',
-    storageBucket: 'word-gamev2.appspot.com',
-    messagingSenderId: '480174426476',
-    appId: '1:480174426476:web:1ed4833c4f4f48fdc08b49',
-    measurementId: 'G-JEHMBP59ZL',
+    apiKey: 'AIzaSyA4cqIm9bMBAesvpqzQtV4vAVZQAqHBk4A',
+    authDomain: 'wordgamev2-3bc2a.firebaseapp.com',
+    projectId: 'wordgamev2-3bc2a',
+    storageBucket: 'wordgamev2-3bc2a.appspot.com',
+    messagingSenderId: '127090104847',
+    appId: '1:127090104847:web:6fc8fc81526334745ce17a',
+    measurementId: 'G-SMPBCZT9HZ',
   },
 };
 

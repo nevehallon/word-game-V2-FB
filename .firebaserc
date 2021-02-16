@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "wordgamev2-3bc2a": {
+      "hosting": {
+        "client": [
+          "wordgamev2-3bc2a"
+        ]
+      }
+    }
+  }
+}
